@@ -62,14 +62,13 @@ header .social-buttons img{
 
 header .lab-banner{
 
-
 }
 
 header .lab-banner .logolab{
 	float: left;
 	width: 90px;
 	height:90px;
-
+	padding: 0px 0px 20px 0px;
 }
 
 header .lab-banner h2{
@@ -87,7 +86,7 @@ header .lab-banner .login{
 	float: right;
 	position: relative;
 	bottom: 30px;
-  color: #333;
+  	color: #333;
 	text-decoration: none;
 
 }
@@ -113,7 +112,8 @@ header .nav-menu ul li{
 }
 
 header .logosearch{
-
+padding: 5px 0px;
+background-color: white;
 width: 30px;
 height: 30px;
 
