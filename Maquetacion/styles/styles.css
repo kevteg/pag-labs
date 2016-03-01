@@ -23,8 +23,13 @@ header .upperbanner h1{
 color: white;
 font-size: 20pt;
 text-decoration: none;
-margin: 0;
-vertical-align: middle; /**HELP, no hace el vertical-align */
+margin: 0px 5px;
+padding: 10px 0px;
+
+}
+
+header .upperbanner img{
+    margin: 5px 8px;
 }
 
 
