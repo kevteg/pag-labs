@@ -5,12 +5,13 @@
 
 header .upperbanner {
 
-	background-color: blue;
+	background-color: #0066CC;
+	height: 50px;
 
 }
 
 header .upperbanner .logounet{
-	
+
 	text-indent: -9999px;
 	width: 40px;
 	float: left;
@@ -21,21 +22,28 @@ header .upperbanner h1{
 
 color: white;
 font-size: 20pt;
-
+text-decoration: none;
+margin: 0;
+vertical-align: middle; /**HELP, no hace el vertical-align */
 }
 
 
 header .suscribe-social{
-
 	float: right;
 
 }
 
+header .suscribe-social .suscription{
+	color: #333;
+	background-color:#ededed;
+	border-style: none;
+	width: 220px;
+	height: 30px;
+	text-align: center;
+}
+
 header .suscribe{
-
 	float: right;
-	
-
 }
 
 header .social-buttons img{
@@ -49,7 +57,7 @@ header .social-buttons img{
 
 header .lab-banner{
 
-	
+
 }
 
 header .lab-banner .logolab{
@@ -60,9 +68,13 @@ header .lab-banner .logolab{
 }
 
 header .lab-banner h2{
-
+	color: #333;
 	font-size: 28pt;
 	margin-bottom: -15px;
+}
+
+header .lab-banner h3{
+	color: #333;
 }
 
 header .lab-banner .login{
@@ -70,7 +82,8 @@ header .lab-banner .login{
 	float: right;
 	position: relative;
 	bottom: 30px;
-
+  color: #333;
+	text-decoration: none;
 
 }
 
@@ -82,7 +95,7 @@ header .nav-menu{
 header .nav-menu ul{
 	text-align: center;
 	list-style: none;
-	background: blue;
+	background: #3399FF;
 }
 
 header .nav-menu ul li{
@@ -113,7 +126,7 @@ width: 180px;
 	margin: -16px;
 	height: 600px;
 	width: 101%;
-	
+
 }
 
 .slider .slidertext {
@@ -128,8 +141,15 @@ width: 180px;
 
 }
 
+.slider .slidertext button{
+	background-color: #ff3333;
+	border-style: none;
+	border-radius: 5px;
+
+}
+
 .info{
-	
+
 	margin: 50px;
 
 
@@ -137,7 +157,7 @@ width: 180px;
 
 .info h1{
 
-color: blue;
+color: #3399FF;
 
 }
 
@@ -155,7 +175,7 @@ font-size: 18pt;
 }
 
 .inv-lines div {
-	
+
 	display: inline-block;
 	padding: 15px;
 }
@@ -187,7 +207,7 @@ font-size: 18pt;
 }
 
 .members div {
-	
+
 	display: inline-block;
 	padding: 15px;
 }
