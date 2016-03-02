@@ -242,3 +242,30 @@ font-size: 18pt;
 	height: 30px;
 
 }
+
+footer{
+	background: url('../images/d4tleft.png') no-repeat center;
+	text-align: left;
+}
+
+footer h6{
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+footer p{
+	color: #fff;
+	font-size: 18px;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
