@@ -5,7 +5,7 @@
   color: #000;
 }
 .page-sizer {
-  width: 90%;
+  width: 1280px;
   margin: 0 auto;
 }
 header .upper-head {
@@ -54,7 +54,6 @@ header .lower-head .h-right {
 }
 header .lower-head .h-right .subscription-form {
   width: 15em;
-  padding-left: 4em;
 }
 header .lower-head .h-right .subscription-form form {
   padding: 0.5em;
@@ -77,7 +76,7 @@ header .lower-head .h-right .subscription-form form button {
 }
 header .lower-head .h-right .social-subscription {
   padding-top: 0.5em;
-  padding-left: 6em;
+  padding-left: 1.5em;
 }
 header .lower-head .h-right .social-subscription img {
   padding: 0 0.5em;
@@ -85,7 +84,7 @@ header .lower-head .h-right .social-subscription img {
   height: 2em;
 }
 header .lower-head .h-right span {
-  padding-left: 10em;
+  padding-left: 6em;
 }
 header .lower-head .h-right a {
   padding: 0.2em;
@@ -108,7 +107,7 @@ nav ul {
 }
 nav ul li {
   display: inline;
-  padding: 4em;
+  padding: 2em;
 }
 nav ul li .search-bar {
   display: inline-block;
@@ -138,7 +137,7 @@ nav ul li:nth-child(1) {
   padding-left: 0;
 }
 nav ul li:nth-child(4) {
-  padding-left: 13em;
+  padding-left: 5em;
 }
 .slider {
   position: relative;
@@ -148,8 +147,8 @@ nav ul li:nth-child(4) {
   background-size: 100% 100%;
 }
 .slider .join-us {
-  top: 30em;
-  left: 75em;
+  top: 32em;
+  left: 55em;
   width: 15em;
   padding: 1.5em;
   position: absolute;
@@ -191,7 +190,7 @@ section .investigation-lines {
 section .investigation-lines .investigation-item {
   text-align: center;
   width: 20%;
-  padding: 0 6em;
+  padding: 0 4em;
   display: inline-block;
 }
 section .investigation-lines .investigation-item img,
@@ -206,7 +205,7 @@ section .investigation-lines .investigation-item img {
   padding-top: 1em;
 }
 .members .member-item {
-  margin: 0 6em;
+  margin: 0 1.6em;
   text-align: center;
   display: inline-block;
   border: solid 1px #808080;
@@ -279,7 +278,7 @@ footer .lower-footer .space-game .start-game {
 footer .lower-footer .interest-links {
   width: 20%;
   color: #fff;
-  padding-left: 13em;
+  padding-left: 10em;
 }
 footer .lower-footer .interest-links a,
 footer .lower-footer .interest-links h2 {
