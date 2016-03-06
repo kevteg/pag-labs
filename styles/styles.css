@@ -233,8 +233,8 @@ section .investigation-lines .investigation-item img {
   margin: 0 0.8em;
   text-align: center;
   display: inline-block;
-  border: solid 1px #808080;
-  box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+  border: solid 1px #ccc;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
 }
 .members .member-item img {
   padding: 2em;
@@ -256,6 +256,51 @@ section .investigation-lines .investigation-item img {
   padding: 0 0.3em;
   width: 3em;
   height: 3em;
+}
+.iniciar-sesion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.iniciar-sesion p {
+  color: #333;
+}
+.iniciar-sesion .autenticar {
+  text-align: center;
+}
+.iniciar-sesion .autenticar a {
+  color: #fff;
+  text-decoration: none;
+  background: #f33;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  font-size: 1.2em;
+}
+.iniciar-sesion .autenticar a:visited {
+  color: #fff;
+}
+.iniciar-sesion .autenticar .datos {
+  text-align: left;
+}
+.iniciar-sesion .autenticar .datos input {
+  width: 100%;
+  margin-top: 0%;
+  border-color: #ccc;
+  border-style: solid;
+  padding: 4% 0%;
+}
+.iniciar-sesion .formar-parte-lab {
+  text-align: center;
+}
+.iniciar-sesion h1 {
+  color: #39f;
+}
+.iniciar-sesion h2 {
+  margin-bottom: 3%;
+  color: #333;
 }
 footer {
   margin-top: 3em;
