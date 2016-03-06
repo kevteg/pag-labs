@@ -1,16 +1,22 @@
 .body
   font-size: 18px;
 
+h1,h2,h3,h4,h5,h6
+  font-family: 'Roboto', sans-serif;
+
+span, ul, li, a, p
+  font-family: 'Noto Sans', sans-serif;
+
 ::-webkit-input-placeholder
   color: black
 
 .page-sizer
-  width: 1280px
+  //width: 980px
   margin: 0 auto
 
 header
   .upper-head
-    padding: 0.5em
+    padding 0.5em
     position: relative;
     width: 100%
     height: 100%
@@ -31,7 +37,7 @@ header
     .h-left
       padding: 1em
       display: inline-block;
-      width: 80%
+      width: 75%
       img
         display: inline-block;
         width: 9em
@@ -43,14 +49,15 @@ header
 
 
     .h-right
+
       top: 1em
-      padding-top: 0.5em
       position: absolute;
       display: inline-block;
       padding: 0 auto
-      width: 18%
+      width: 23%
 
       .subscription-form
+        float: right;
         width: 15em
         form
           padding: 0.5em
@@ -70,67 +77,74 @@ header
             border: 0
 
       .social-subscription
+        float: right;
         padding-top: 0.5em
         padding-left: 1.5em
         img
-          padding: 0 0.5em
+          padding: 0 0.3em
           width: 2em
           height: 2em
-      span
-        padding-left: 6em
-
-      a
-        padding: 0.2em
-        display: inline;
-        font-size: 3em
-        text-decoration: none;
-        &:visited
-          color: black
+      .log-in
+        padding-left: 13%
+        width: auto
+        float: right;
+        span
+          font-size: 1.5em
+        a
+          padding: 0.2em
+          display: inline;
+          font-size: 3em
+          text-decoration: none;
+          &:visited
+            color: black
 
 nav
+  height: 2em
   font-size: 1.5em
   color: white
   background: #3399ff
   ul
+    padding: 0.5em
+    display: inline-block;
     margin: 0
-    padding: 1em
     list-style-type: none;
     li
       display: inline;
-      padding: 2em
-      .search-bar
-        form
-          padding: 0.5em
-          background: #bbc3cc
-          margin: 0
-          input
-            background: #bbc3cc
-            margin: 0
-            border: 0
-            outline: 0
-          button
-            color: black
-            float: right;
-            padding-right: 0.5em
-            margin: 0
-            background: #bbc3cc
-            outline: 0
-            border: 0
-        display: inline-block;
-        background: white
+      padding: 0 1.2em
       &:nth-child(1)
-        padding-left: 0
-      &:nth-child(4)
-        padding-left: 5em
+        padding-left: 0.5em
+  .search-bar
+    padding: 0.1em
+    display: inline-block;
+    float: right;
+    form
+      padding: 0.25em
+      background: #bbc3cc
+      margin: 0
+      input
+        width: 7.5em
+        background: #bbc3cc
+        margin: 0
+        border: 0
+        outline: 0
+      button
+        color: black
+        float: right;
+        padding-right: 0.5em
+        margin: 0
+        background: #bbc3cc
+        outline: 0
+        border: 0
+    display: inline-block;
 .slider
     position: relative;
     width: 100%
-    height: 50em
+    height: 25em
     background: url("../images/ac9c.jpg") center no-repeat
     background-size: 100% 100%
     .join-us
-      top: 32em
-      left: 55em
+      top: 40%
+      left: 65%
       width: 15em
       padding: 1.5em
       position: absolute;
@@ -160,13 +174,14 @@ section
       color: #3399ff
 
   .investigation-lines
+    text-align: center;
     padding: 1em
     width: 100%;
     background: #bbc3cc
     .investigation-item
       text-align: center;
       width: 20%
-      padding: 0 4em
+      padding: 0 3.5em
       display: inline-block;
       img,span
         display: block;
@@ -177,9 +192,11 @@ section
         //aqui falta xD!
 
 .members
+  text-align: center;
   padding-top: 1em
   .member-item
-    margin: 0 1.6em
+    width: 30%
+    margin: 0 0.8em
     text-align: center;
     display: inline-block;
     border: solid 1px grey
@@ -197,7 +214,7 @@ section
     .member-social
       padding: 1em
       img
-        padding: 0 1em
+        padding: 0 0.3em
         width: 3em
         height: 3em
 
@@ -237,9 +254,10 @@ footer
         border-radius: 50%
 
     .interest-links
+      float: right;
       width: 20%
       color: white
-      padding-left: 10em
+      padding-left: 5em
       a,h2
         display: inline-block;
       a

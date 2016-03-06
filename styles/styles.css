@@ -1,11 +1,25 @@
 .body {
   font-size: 18px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+span,
+ul,
+li,
+a,
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
 ::-webkit-input-placeholder {
   color: #000;
 }
 .page-sizer {
-  width: 1280px;
   margin: 0 auto;
 }
 header .upper-head {
@@ -33,7 +47,7 @@ header .lower-head {
 header .lower-head .h-left {
   padding: 1em;
   display: inline-block;
-  width: 80%;
+  width: 75%;
 }
 header .lower-head .h-left img {
   display: inline-block;
@@ -46,13 +60,13 @@ header .lower-head .h-left .lab-title {
 }
 header .lower-head .h-right {
   top: 1em;
-  padding-top: 0.5em;
   position: absolute;
   display: inline-block;
   padding: 0 auto;
-  width: 18%;
+  width: 23%;
 }
 header .lower-head .h-right .subscription-form {
+  float: right;
   width: 15em;
 }
 header .lower-head .h-right .subscription-form form {
@@ -75,56 +89,70 @@ header .lower-head .h-right .subscription-form form button {
   border: 0;
 }
 header .lower-head .h-right .social-subscription {
+  float: right;
   padding-top: 0.5em;
   padding-left: 1.5em;
 }
 header .lower-head .h-right .social-subscription img {
-  padding: 0 0.5em;
+  padding: 0 0.3em;
   width: 2em;
   height: 2em;
 }
-header .lower-head .h-right span {
-  padding-left: 6em;
+header .lower-head .h-right .log-in {
+  padding-left: 13%;
+  width: auto;
+  float: right;
 }
-header .lower-head .h-right a {
+header .lower-head .h-right .log-in span {
+  font-size: 1.5em;
+}
+header .lower-head .h-right .log-in a {
   padding: 0.2em;
   display: inline;
   font-size: 3em;
   text-decoration: none;
 }
-header .lower-head .h-right a:visited {
+header .lower-head .h-right .log-in a:visited {
   color: #000;
 }
 nav {
+  height: 2em;
   font-size: 1.5em;
   color: #fff;
   background: #39f;
 }
 nav ul {
+  padding: 0.5em;
+  display: inline-block;
   margin: 0;
-  padding: 1em;
   list-style-type: none;
 }
 nav ul li {
   display: inline;
-  padding: 2em;
+  padding: 0 1.2em;
 }
-nav ul li .search-bar {
+nav ul li:nth-child(1) {
+  padding-left: 0.5em;
+}
+nav .search-bar {
+  padding: 0.1em;
   display: inline-block;
-  background: #fff;
+  float: right;
+  display: inline-block;
 }
-nav ul li .search-bar form {
-  padding: 0.5em;
+nav .search-bar form {
+  padding: 0.25em;
   background: #bbc3cc;
   margin: 0;
 }
-nav ul li .search-bar form input {
+nav .search-bar form input {
+  width: 7.5em;
   background: #bbc3cc;
   margin: 0;
   border: 0;
   outline: 0;
 }
-nav ul li .search-bar form button {
+nav .search-bar form button {
   color: #000;
   float: right;
   padding-right: 0.5em;
@@ -133,22 +161,16 @@ nav ul li .search-bar form button {
   outline: 0;
   border: 0;
 }
-nav ul li:nth-child(1) {
-  padding-left: 0;
-}
-nav ul li:nth-child(4) {
-  padding-left: 5em;
-}
 .slider {
   position: relative;
   width: 100%;
-  height: 50em;
+  height: 25em;
   background: url("../images/ac9c.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .slider .join-us {
-  top: 32em;
-  left: 55em;
+  top: 40%;
+  left: 65%;
   width: 15em;
   padding: 1.5em;
   position: absolute;
@@ -183,6 +205,7 @@ section .slogan h1 {
   color: #39f;
 }
 section .investigation-lines {
+  text-align: center;
   padding: 1em;
   width: 100%;
   background: #bbc3cc;
@@ -190,7 +213,7 @@ section .investigation-lines {
 section .investigation-lines .investigation-item {
   text-align: center;
   width: 20%;
-  padding: 0 4em;
+  padding: 0 3.5em;
   display: inline-block;
 }
 section .investigation-lines .investigation-item img,
@@ -202,10 +225,12 @@ section .investigation-lines .investigation-item img {
   border-radius: 50%;
 }
 .members {
+  text-align: center;
   padding-top: 1em;
 }
 .members .member-item {
-  margin: 0 1.6em;
+  width: 30%;
+  margin: 0 0.8em;
   text-align: center;
   display: inline-block;
   border: solid 1px #808080;
@@ -228,7 +253,7 @@ section .investigation-lines .investigation-item img {
 }
 .members .member-item span img,
 .members .member-item .member-social img {
-  padding: 0 1em;
+  padding: 0 0.3em;
   width: 3em;
   height: 3em;
 }
@@ -276,9 +301,10 @@ footer .lower-footer .space-game .start-game {
   border-radius: 50%;
 }
 footer .lower-footer .interest-links {
+  float: right;
   width: 20%;
   color: #fff;
-  padding-left: 10em;
+  padding-left: 5em;
 }
 footer .lower-footer .interest-links a,
 footer .lower-footer .interest-links h2 {
