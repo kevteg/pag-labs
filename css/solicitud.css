@@ -1,0 +1,53 @@
+ .form-in .send {
+  vertical-align: middle;
+  padding: 0.2em;
+  background: #f33;
+  border-radius: 0.2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-in{
+color: #333;
+}
+
+.form-in h3{
+color: #39f;
+padding-left: 16%;
+
+}
+
+.form-in .form{
+	padding-left: 20%;
+}
+
+
+.form-in .texts{
+display: inline-block;
+vertical-align: top;
+}
+
+.form-in .texts p{
+padding-bottom: 1px;
+}
+
+.form-in .inputs{
+	vertical-align: top bottom;
+padding-left: 20px;
+display: inline-block;
+}
+
+.form-in .inputs input{
+padding: 0;
+border: 0;
+border-bottom: #bdbdbd 1px solid;
+}
+
+.form-in .inputs .reason{
+border: #bdbdbd 1px solid;
+padding-bottom: 20%;
+}
+
+.form-in .send{
+	display: block;
+}
