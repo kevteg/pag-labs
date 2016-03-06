@@ -11,7 +11,7 @@ span, ul, li, a, p
   color: black
 
 .page-sizer
-  //width: 980px
+  
   margin: 0 auto
 
 header
@@ -218,54 +218,106 @@ section
         width: 3em
         height: 3em
 
-.iniciar-sesion
-    display: flex
-    flex-direction row
-    align-items center
-    justify-content space-around
-    align-items flex-start
-    margin-top 3%
-    p
-      color #333
-    .autenticar
-      text-align center
-      a
-        color white
-        text-decoration none
-        background #f33
-        padding 0.4em 0.6em
-        border-radius 0.2em
-        font-size 1.2em
-        &:visited
-          color white
-      .datos
-        text-align left
-        input
-          width 100%
-          margin-top 0%
-          border-color #ccc
-          border-style solid
-          padding 4% 0%
-
-    .formar-parte-lab
-      text-align center
-    h1
-      color: #39f;
-    h2
-      margin-bottom 3%
-      color #333
-
 //----------------------- BLOG -------------------------------------------
-.blog-information
-  width: 20%
-  float: left;
-  
+.blog-container
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  .blog-information
+    ul
+      li
+        font-size: 1.5em
+    padding: 1em
+    width: 20%
+    float: left;
+    .blog-social
+      img
+        width: 100%
+        height: 25em
+      .social-subscription
+        text-align: center;
+        padding-top: 1em
+        a
+          img
+            padding: 0 0.3em
+            width: 3em
+            height: 3em
+    .academic-info
+      h2
+        padding-left: 1em
+      padding-bottom: 0.2em
+      width: 100%
+      background: #0066cc
+      margin-top: 1em
+      color: white
+      ul
+        list-style-type: none;
+        li
+          padding: 0.5em 0
+          &:before
+            content: " - "
 
+    .entries
+      padding-bottom: 0.2em
+      margin-top: 1em
+      width: 100%
+      background: #3399ff
+      color: white
+      h2
+        padding: 1em
+        padding-bottom: 0
+        margin:0
+      ul
+        list-style-type: none;
+        li
+          padding: 0.5em 0
+          &:before
+            content: " - "
+
+  .blog
+    float: right;
+    width: 75%
+    .member-resume
+      padding: 1em
+      border-bottom: 1px solid #3399ff
+      h1
+        color: #3399ff
+      span
+        display: block;
+        font-size: 2em
+
+    .blog-entries
+      width: 100%
+      .blog-entry
+        margin: 2em 0
+        position: relative;
+        width: 100%
+        img
+          display: inline-block;
+          width: 20%
+          height: 10em
+        .entry-about
+          padding: 1em
+          position: absolute;
+          display: inline-block;
+          h2
+            color: #3399ff
+          span
+            font-size: 1.5em
+          a
+            margin-left: 80%
+            width: 4.5em
+            display: block;
+            text-decoration: none;
+            background: #ff3333
+            color: white
+            padding: 0.5em
+
+//---------------------- BLOG --------------------------------------------------
 
 
 
 footer
-  margin-top: 3em
   background: url("../images/d4tleft.png") center no-repeat
   width: 100%
   height: 40em
