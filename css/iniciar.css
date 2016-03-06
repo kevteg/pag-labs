@@ -1,0 +1,45 @@
+.iniciar-sesion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.iniciar-sesion p {
+  color: #333;
+}
+.iniciar-sesion .autenticar {
+  text-align: center;
+}
+.iniciar-sesion .autenticar a {
+  color: #fff;
+  text-decoration: none;
+  background: #f33;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  font-size: 1.2em;
+}
+.iniciar-sesion .autenticar a:visited {
+  color: #fff;
+}
+.iniciar-sesion .autenticar .datos {
+  text-align: left;
+}
+.iniciar-sesion .autenticar .datos input {
+  width: 100%;
+  margin-top: 0%;
+  border-color: #ccc;
+  border-style: solid;
+  padding: 4% 0%;
+}
+.iniciar-sesion .formar-parte-lab {
+  text-align: center;
+}
+.iniciar-sesion h1 {
+  color: #39f;
+}
+.iniciar-sesion h2 {
+  margin-bottom: 3%;
+  color: #333;
+}

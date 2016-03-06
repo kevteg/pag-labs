@@ -5,8 +5,9 @@
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/home.css"> <!-- Esto lo cambia Estefany -->
+  <link rel="stylesheet" href="css/home.css"> 
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/iniciar.css">
   <title>Laboratorio de Prototipos</title>
 </head>
 <body>
@@ -39,24 +40,26 @@
             <img src="images/logopin.png" alt="">
             <img src="images/logofeed.png" alt="">
           </div>
-          <span>Iniciar Sesión</span><a href="#" class="fa fa-angle-right"></a>
+          <div class="log-in">
+            <span>Iniciar Sesión</span><a href="#" class="fa fa-angle-right"></a>
+          </div>
         </div>
       </div>
     </header>
     <nav>
       <ul>
-        <li>Lineas de Investigación v</li>
+        <li>Lineas de Investigación</li>
         <li>Miembros</li>
         <li>Proyectos</li>
         <li>
-          <div class="search-bar">
-            <form action="post">
-              <input type="text" name="subscripcion" placeholder="Buscar...">
-              <button type="button" name="button" class="fa fa-search"></button>
-            </form>
-          </div>
         </li>
       </ul>
+      <div class="search-bar">
+        <form action="post">
+          <input type="text" name="subscripcion" placeholder="Buscar">
+          <button type="button" name="button" class="fa fa-search"></button>
+        </form>
+      </div>
     </nav>
     <section class="iniciar-sesion">
       <div class="autenticar">
