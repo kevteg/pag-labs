@@ -20,7 +20,6 @@ p {
   color: #000;
 }
 .page-sizer {
-  width: 1280px;
   margin: 0 auto;
 }
 header .upper-head {
@@ -66,6 +65,11 @@ header .lower-head .h-left .lab-title {
 }
 header .lower-head .h-left .lab-title h1 {
   color: #333;
+  margin-bottom: 0%;
+  font-size: 2.3em;
+}
+header .lower-head .h-left .lab-title h2 {
+  margin-top: 0%;
 }
 header .lower-head .h-right {
   top: 1em;
@@ -184,7 +188,7 @@ nav .search-bar form button {
 }
 .slider .join-us {
   top: 40%;
-  left: 65%;
+  left: 75%;
   width: 15em;
   padding: 1.5em;
   position: absolute;
@@ -238,6 +242,8 @@ section .investigation-lines .investigation-item span {
 section .investigation-lines .investigation-item img {
   margin: 0 auto;
   border-radius: 50%;
+  width: 80%;
+  height: 80%;
 }
 .members {
   text-align: center;
@@ -270,8 +276,8 @@ section .investigation-lines .investigation-item img {
 .members .member-item span img,
 .members .member-item .member-social img {
   padding: 0 0.3em;
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 .blog-information {
   width: 20%;
@@ -370,8 +376,10 @@ article .contact-form form .list-item {
   display: inline-flex;
 }
 article .contact-form form input[type=text] {
+  margin-top: 1em;
   border-width: 0px 0px 3px 0px;
   width: 30em;
+  height: 2em;
 }
 article .contact-form form input[type=text]:hover {
   border-width: 0px 0px 6px 0px;
