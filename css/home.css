@@ -20,7 +20,6 @@ p {
   color: #000;
 }
 .page-sizer {
-  width: 1280px;
   margin: 0 auto;
 }
 header .upper-head {
@@ -243,6 +242,8 @@ section .investigation-lines .investigation-item span {
 section .investigation-lines .investigation-item img {
   margin: 0 auto;
   border-radius: 50%;
+  width: 80%;
+  height: 80%;
 }
 .members {
   text-align: center;
