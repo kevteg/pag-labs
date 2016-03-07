@@ -125,6 +125,7 @@ nav {
   font-size: 1.5em;
   color: #fff;
   background: #39f;
+  padding-bottom: 0.9%;
 }
 nav ul {
   padding: 0.5em;
@@ -140,8 +141,8 @@ nav ul li:nth-child(1) {
   padding-left: 0.5em;
 }
 nav .search-bar {
+  margin-top: 0.45%;
   padding: 0.1em;
-  display: inline-block;
   float: right;
   display: inline-block;
 }

@@ -13,12 +13,17 @@ color: #333;
 
 .form-in h3{
 color: #39f;
-padding-left: 16%;
+padding-left: 12%;
+font-size: 2.1em;
+margin-top: 40px;
+margin-bottom: 10px; 
 
 }
 
 .form-in .form{
+	width: 60%;
 	padding-left: 20%;
+	font-size: 1.8em;
 }
 
 
@@ -43,11 +48,30 @@ border: 0;
 border-bottom: #bdbdbd 1px solid;
 }
 
+.form-in .inputs input:hover{
+border-bottom: #000 1px solid;
+}
+
 .form-in .inputs .reason{
 border: #bdbdbd 1px solid;
 padding-bottom: 20%;
 }
 
+.form-in .inputs .reason:hover{
+border: #000 1px solid;
+}
+
+.form-in .div-button{
+display: block;
+text-align: center;
+}
+
 .form-in .send{
-	display: block;
+	padding: 0.4em 0.8em;
+	border:none;
+	border-radius: 0;
+}
+
+.form-in .send:hover{
+	box-shadow:  4px 4px 9px rgba(0,0,0,0.2);
 }
