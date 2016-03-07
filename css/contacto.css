@@ -361,29 +361,39 @@ article .contact-form {
   height: 100%;
   padding: 2em 5em;
 }
-article .contact-form ul li {
-  display: inline-flex;
+article .contact-form form {
+  display: block;
   align-items: baseline;
 }
-article .contact-form ul li input[type=text] {
-  border-width: 0px 0px 4px 0px;
+article .contact-form form .list-item {
+  display: inline-flex;
+}
+article .contact-form form input[type=text] {
+  border-width: 0px 0px 3px 0px;
   width: 30em;
 }
-article .contact-form ul li input[name="name"] {
+article .contact-form form input[type=text]:hover {
+  border-width: 0px 0px 6px 0px;
+}
+article .contact-form form input[name="name"] {
   margin-left: 2.2em;
 }
-article .contact-form ul li input[name="mail"] {
+article .contact-form form input[name="mail"] {
   margin-left: 3em;
 }
-article .contact-form ul li input[name="topic"] {
+article .contact-form form input[name="topic"] {
   margin-left: 3em;
 }
-article .contact-form ul textarea {
-  margin-top: -1.5em;
-  margin-left: 8em;
+article .contact-form textarea {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 2em;
   width: 30em;
   height: 15em;
   border-width: 1px 1px 1px 1px;
+}
+article .contact-form textarea:hover {
+  border-width: 2px 2px 2px 2px;
 }
 article .contact-form a {
   color: #fff;
@@ -393,6 +403,9 @@ article .contact-form a {
   font-size: 1.2em;
   padding: 0.4em 0.6em;
   border-radius: 0.2em;
+}
+article .contact-form a:hover {
+  background-color: #f44;
 }
 article .contact-info {
   width: 100%;
