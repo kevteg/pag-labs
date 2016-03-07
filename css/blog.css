@@ -291,6 +291,7 @@ section .investigation-lines .investigation-item img {
   color: #fff;
 }
 .blog-container .blog-information .academic-info h2 {
+  padding: 1em;
   padding-left: 1em;
 }
 .blog-container .blog-information .academic-info ul {
@@ -344,7 +345,7 @@ section .investigation-lines .investigation-item img {
 .blog-container .blog .blog-entries .blog-entry {
   margin: 2em 0;
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 .blog-container .blog .blog-entries .blog-entry img {
   display: inline-block;
@@ -363,7 +364,8 @@ section .investigation-lines .investigation-item img {
   font-size: 1.5em;
 }
 .blog-container .blog .blog-entries .blog-entry .entry-about a {
-  margin-left: 80%;
+  margin-top: 2em;
+  float: right;
   width: 4.5em;
   display: block;
   text-decoration: none;
