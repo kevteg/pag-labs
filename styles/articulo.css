@@ -1,0 +1,75 @@
+/*Realizado por DreamTeam - JD*/
+
+article{
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 7% auto;
+  margin-top: 5%;
+}
+
+article h1{
+  width: 100%;
+  color: #39f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.300em;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.article-corp{
+  margin:3.5em;
+  margin-top: 1em;
+}
+
+article p,h5,h6{
+  color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.250em;
+  font-weight: normal;
+}
+
+.introducing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introducing img{
+  width: auto;
+  height: auto;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.text h5{
+  margin-top: 1em;
+}
+
+.text img{
+  height: 4.5em;
+  width: auto;
+}
+
+article h6{
+  text-align: right;
+}
+
+.button{
+  width: 11em;
+  text-align: center;
+}
+
+.button p{
+  background-color: #cf4045;
+  color: #fff;
+}
