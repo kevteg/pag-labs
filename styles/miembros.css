@@ -124,10 +124,16 @@ section h1{
 .button{
   width: 6em;
   text-align: center;
+  padding: 0.5em;
 }
 
 .button p{
   background-color: #cf4045;
   color: #fff;
   font-size: 1.250em;
+  border-radius: 0.2em;
+}
+
+a{
+  text-decoration: none;
 }
