@@ -41,6 +41,9 @@ header .upper-head .UNET {
   top: 1.5em;
   padding: 0 1em;
 }
+header .upper-head .UNET h1 {
+  color: #fff;
+}
 header .lower-head {
   position: relative;
 }
@@ -57,6 +60,9 @@ header .lower-head .h-left img {
 header .lower-head .h-left .lab-title {
   position: absolute;
   display: inline-block;
+  color: #585858;
+}
+header .lower-head .h-left .lab-title h1 {
   color: #333;
 }
 header .lower-head .h-right {
@@ -125,7 +131,6 @@ nav {
   font-size: 1.5em;
   color: #fff;
   background: #39f;
-  padding-bottom: 0.9%;
 }
 nav ul {
   padding: 0.5em;
@@ -141,8 +146,8 @@ nav ul li:nth-child(1) {
   padding-left: 0.5em;
 }
 nav .search-bar {
-  margin-top: 0.45%;
   padding: 0.1em;
+  display: inline-block;
   float: right;
   display: inline-block;
 }
