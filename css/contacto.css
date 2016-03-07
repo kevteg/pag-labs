@@ -20,6 +20,7 @@ p {
   color: #000;
 }
 .page-sizer {
+  width: 1280px;
   margin: 0 auto;
 }
 header .upper-head {
@@ -338,7 +339,7 @@ footer .lower-footer .interest-links a {
 footer .lower-footer .interest-links a:visited {
   color: #fff;
 }
-h1 {
+article h1 {
   font-family: 'Roboto', sans-serif;
   color: #39f;
 }
@@ -390,6 +391,7 @@ article .contact-form textarea {
   width: 30em;
   height: 15em;
   border-width: 1px 1px 1px 1px;
+  resize: none;
 }
 article .contact-form textarea:hover {
   border-width: 2px 2px 2px 2px;
