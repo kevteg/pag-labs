@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/solicitud.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -47,7 +48,7 @@
     </header>
     <nav>
       <ul>
-        <li>Lineas de Investigación</li>
+        <li>Lineas de Investigación v</li>
         <li>Miembros</li>
         <li>Proyectos</li>
         <li>
@@ -55,78 +56,40 @@
       </ul>
       <div class="search-bar">
         <form action="post">
-          <input type="text" name="subscripcion" placeholder="Buscar">
+          <input type="text" name="subscripcion" placeholder="Buscar...">
           <button type="button" name="button" class="fa fa-search"></button>
         </form>
       </div>
     </nav>
-    <section class="slider">
-      <div class="join-us">
-        <h1>¡Unete!</h1>
-        <span>¡Desde la guerra contra los guarimberos, necesitamos tu ayuda!</span>
-        <div class="link-more">
-          <a href="#">Ver más</a>
-        </div>
+  
+   <section class="form-in">
+   	<h3>Solicitud de Ingreso</h3>
+  
+    <form class="form" id="form1" method="post">
+      
+      <div class="texts">
+      <p>Nombres</p>
+      <p>Correo</p>
+      <p>Teléfono</p>
+      <p>Carrera</p>
+      <p>Semestre actual</p>
+      <p>Razón de solicitud</p>
+      </div><div class="inputs">
+      	<p><input name="Names" type="text" class="name" placeholder=""/></p>
+      	<p><input name="Email" type="text" class="" placeholder=""/></p>
+      	<p><input name="Phone" type="text" class="" placeholder=""/></p>
+      	<p><input name="Career" type="text" class="" placeholder=""/></p>
+      	<p><input name="Semester" type="text" class="" placeholder=""/></p>
+      	<p><input name="Reason" type="text" class="reason" placeholder=""/></p>
       </div>
-    </section>
-    <section>
-      <div class="slogan">
-        <h1>¡Muchas ideas, un laboratorio!</h1>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+      <div class="div-button">
+      <input type="submit" class="send" value="Enviar"/>
       </div>
-      <div class="investigation-lines">
-        <div class="investigation-item">
-          <img src="images/lazaro.png" alt="Robotica">
-          <h2>Robotica</h2>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </div>
-        <div class="investigation-item">
-          <img src="images/diseno.png" alt="Diseño mecánico">
-          <h2>Diseño Mecanico</h2>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </div>
-        <div class="investigation-item">
-          <img src="images/pierna.png" alt="Inteligencia artificial">
-          <h2>Inteligencia artificial</h2>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </div>
-      </div>
-    </section>
-    <section class="members">
-      <div class="member-item">
-        <img src="images/miguel.jpg" alt="Miguel Bolivar">
-        <h2>Miguel Bolivar</h2>
-        <span>Ingeniería informatica</span>
-        <div class="member-social">
-          <img src="images/email-black.png" alt="Mail">
-          <img src="images/tw-black.png" alt="Twitter">
-          <img src="images/fb-black.png" alt="Facebook">
-          <img src="images/youtube-black.png" alt="Youtube">
-        </div>
-      </div>
-      <div class="member-item">
-        <img src="images/estefany.jpg" alt="Estefany Salas">
-        <h2>Estefany Salas</h2>
-        <span>Ingeniería informatica</span>
-        <div class="member-social">
-          <a href="#"><img src="images/email-black.png" alt="Mail"></a>
-          <a href="#"><img src="images/tw-black.png" alt="Twitter"></a>
-          <a href="#"><img src="images/fb-black.png" alt="Facebook"></a>
-          <a href="#"><img src="images/youtube-black.png" alt="Youtube"></a>
-        </div>
-      </div>
-      <div class="member-item">
-        <img src="images/kevin.jpg" alt="Kevin Hernandez">
-        <h2>Kevin Hernandez</h2>
-        <span>Ingeniería informatica</span>
-        <div class="member-social">
-          <a href="#"><img src="images/email-black.png" alt="Mail"></a>
-          <a href="#"><img src="images/tw-black.png" alt="Twitter"></a>
-          <a href="#"><img src="images/fb-black.png" alt="Facebook"></a>
-          <img src="images/youtube-black.png" alt="Youtube"></a>
-        </div>
-      </div>
-    </section>
+    </form>
+  
+
+   </section>
+
     <footer>
       <div class="upper-footer">
         <h1>Enterate de lo que hacemos en el Laboratorio:</h1>

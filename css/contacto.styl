@@ -1,0 +1,57 @@
+@import "home"
+h1
+  font-family: 'Roboto', sans-serif;
+  color: #39f;
+
+span, h2
+  color: #585858;
+  font-family: 'Noto Sans', sans-serif;
+
+.desc
+  color: #999;
+
+article
+  display: inline-flex;
+  padding: 2em
+  .contact-form
+    text-align: left;
+    width: 150%;
+    height: 100%;
+    padding: 2em 5em
+    ul
+      li
+        display: inline-flex;
+        //height: 5em
+        align-items: baseline;
+        input[type=text]
+          border-width: 0px 0px 4px 0px;
+          width: 30em
+        input[name="name"]
+          margin-left: 2.2em
+        input[name="mail"]
+          margin-left: 3em
+        input[name="topic"]
+          margin-left: 3em
+      textarea
+        margin-top: -1.5em
+        margin-left: 8em
+        width: 30em
+        height: 15em
+        border-width: 1px 1px 1px 1px;
+    a
+      color: white
+      margin-left: 15em
+      text-decoration: none
+      background-color: #f33
+      font-size: 1.2em
+      padding 0.4em 0.6em
+      border-radius: 0.2em
+  .contact-info
+    width: 100%;
+    height: 100%;
+    padding: 2em 1em
+    .map
+      height: 18em;
+      width: 18em
+      background: url("../images/mapa.png")
+      background-size: 100% 100%;

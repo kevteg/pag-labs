@@ -1,0 +1,42 @@
+.proyecto-body {
+  width: 90%;
+  margin-left: 3%;
+}
+.proyecto-body h1 {
+  color: #39f;
+  padding-left: 2%;
+}
+.proyecto-body p {
+  padding-left: 5%;
+}
+.proyecto-body .button {
+  display: flex;
+  justify-content: flex-end;
+}
+.proyecto-body .button a {
+  background: #f33;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+.proyecto-body .button a:visited {
+  color: #fff;
+}
+.proyecto-body .Main-proyect .contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.proyecto-body .Main-proyect .contenido div {
+  width: 100%;
+  padding-left: 3%;
+}
+.proyecto-body .Main-proyect .contenido div img {
+  height: 15em;
+}
+.proyecto-body .Main-proyect .contenido div p {
+  margin-top: 0%;
+}

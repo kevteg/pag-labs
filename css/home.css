@@ -57,6 +57,7 @@ header .lower-head .h-left img {
 header .lower-head .h-left .lab-title {
   position: absolute;
   display: inline-block;
+  color: #333;
 }
 header .lower-head .h-right {
   top: 1em;
@@ -71,12 +72,14 @@ header .lower-head .h-right .subscription-form {
 }
 header .lower-head .h-right .subscription-form form {
   padding: 0.5em;
-  background: #bbc3cc;
+  background: #ededed;
+  color: #333;
   margin: 0;
 }
 header .lower-head .h-right .subscription-form form input {
   margin: 0;
-  background: #bbc3cc;
+  background: #ededed;
+  color: #333;
   border: 0;
   outline: 0;
 }
@@ -84,7 +87,8 @@ header .lower-head .h-right .subscription-form form button {
   float: right;
   padding-right: 0.5em;
   margin: 0;
-  background: #bbc3cc;
+  background: #ededed;
+  color: #333;
   outline: 0;
   border: 0;
 }
@@ -102,6 +106,7 @@ header .lower-head .h-right .log-in {
   padding-left: 13%;
   width: auto;
   float: right;
+  color: #333;
 }
 header .lower-head .h-right .log-in span {
   font-size: 1.5em;
@@ -113,13 +118,14 @@ header .lower-head .h-right .log-in a {
   text-decoration: none;
 }
 header .lower-head .h-right .log-in a:visited {
-  color: #000;
+  color: #333;
 }
 nav {
   height: 2em;
   font-size: 1.5em;
   color: #fff;
   background: #39f;
+  padding-bottom: 0.9%;
 }
 nav ul {
   padding: 0.5em;
@@ -135,31 +141,32 @@ nav ul li:nth-child(1) {
   padding-left: 0.5em;
 }
 nav .search-bar {
+  margin-top: 0.45%;
   padding: 0.1em;
-  display: inline-block;
   float: right;
   display: inline-block;
 }
 nav .search-bar form {
   padding: 0.25em;
-  background: #bbc3cc;
+  background: #ededed;
   margin: 0;
 }
 nav .search-bar form input {
   width: 7.5em;
-  background: #bbc3cc;
+  background: #ededed;
   margin: 0;
   border: 0;
   outline: 0;
 }
 nav .search-bar form button {
-  color: #000;
+  color: #333;
   float: right;
   padding-right: 0.5em;
   margin: 0;
-  background: #bbc3cc;
+  background: #ededed;
   outline: 0;
   border: 0;
+  color: #333;
 }
 .slider {
   position: relative;
@@ -211,6 +218,7 @@ section .investigation-lines {
   background: #bbc3cc;
 }
 section .investigation-lines .investigation-item {
+  color: #333;
   text-align: center;
   width: 20%;
   padding: 0 3.5em;
@@ -250,6 +258,7 @@ section .investigation-lines .investigation-item img {
 .members .member-item span,
 .members .member-item .member-social {
   padding: 1em;
+  color: #333;
 }
 .members .member-item span img,
 .members .member-item .member-social img {
