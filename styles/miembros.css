@@ -26,27 +26,15 @@ section h1{
   width: 100%;
 }
 
-.card, .card-reverse{
+.card,.card-reverse{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   border: 0.2em solid #e5e5e5;
-  margin: 2.5em;
   width: 30em;
   height: 18em;
-}
-.card-reverse
-{
-  display: none;
-}
-.card:hover 
-{
-  display:none;
-}
-.card:hover + .card-reverse
-{
-  display:flex;
+  margin: 2.5em;
 }
 
 .data{
@@ -136,7 +124,6 @@ section h1{
 .button{
   width: 6em;
   text-align: center;
-  padding: 0.5em;
 }
 
 .button p{
@@ -144,6 +131,7 @@ section h1{
   color: #fff;
   font-size: 1.250em;
   border-radius: 0.2em;
+  padding: 0.2em 0.5em;
 }
 
 a{

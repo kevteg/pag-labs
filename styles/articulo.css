@@ -20,8 +20,7 @@ article h1{
 }
 
 .article-corp{
-  margin:3.5em;
-  margin-top: 1em;
+  margin: 1em 3.5em;
 }
 
 article p,h5,h6{
@@ -29,6 +28,10 @@ article p,h5,h6{
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.250em;
   font-weight: normal;
+}
+
+a{
+  text-decoration: none;
 }
 
 .introducing{
@@ -65,11 +68,13 @@ article h6{
 }
 
 .button{
-  width: 11em;
+  width: 13em;
   text-align: center;
 }
 
 .button p{
   background-color: #cf4045;
   color: #fff;
+  border-radius: 0.2em;
+  padding: 0.2em 0.5em;
 }
