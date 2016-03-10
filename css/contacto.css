@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
   font-size: 18px;
 }
@@ -462,3 +463,6 @@ article .contact-info .map {
   background: url("../images/mapa.png");
   background-size: 100% 100%;
 }
+=======
+article h1{font-family:'Roboto',sans-serif;color:#39f}article span,article h2{color:#585858;font-family:'Noto Sans',sans-serif}.desc{color:#999}article{display:inline-flex;padding:2em;}article .contact-form{text-align:left;width:150%;height:100%;padding:2em 5em;}article .contact-form form{display:block;align-items:baseline;}article .contact-form form .list-item{display:inline-flex}article .contact-form form input[type=text]{margin-top:1em;border-width:0 0 3px 0;width:30em;height:2em;}article .contact-form form input[type=text]:hover{border-width:0 0 6px 0}article .contact-form form input[name="name"]{margin-left:2.2em}article .contact-form form input[name="mail"]{margin-left:3em}article .contact-form form input[name="topic"]{margin-left:3em}article .contact-form textarea{margin-top:3em;margin-bottom:3em;margin-left:2em;width:30em;height:15em;border-width:1px 1px 1px 1px;resize:none;}article .contact-form textarea:hover{border-width:2px 2px 2px 2px}article .contact-form a{color:#fff;margin-left:15em;text-decoration:none;background-color:#f33;font-size:1.2em;padding:.4em .6em;border-radius:.2em;}article .contact-form a:hover{background-color:#f44}article .contact-info{width:100%;height:100%;padding:2em 1em;}article .contact-info .map{height:18em;width:18em;background:url("../images/mapa.png");background-size:100% 100%}
+>>>>>>> 0820cf06222829893ff5d687b15475650df58291
