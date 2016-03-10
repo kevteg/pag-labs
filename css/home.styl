@@ -14,155 +14,167 @@ span, ul, li, a, p
   margin: 0 auto
 
 header
-  .upper-head
-    padding 0.5em
-    position: relative;
+  .size-container-upper-head
     width: 100%
-    height: 100%
     background: #0066cc
-    color: white
-    img
-      width: 2em
-      height: 2em
-      display: inline-block;
-    .UNET
-      position: absolute;
-      display: inline-block;
-      top: 0.5em
-      padding: 0 1em
-      h1
-        color: white
-        font-size 1.2em
-
-  .lower-head
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between
-    aling-items:center;
-    margin 1em
-    .h-left
-      padding: 1em
-      display: inline-block;
-      width: 75%
+    .upper-head
+      padding 0.5em
+      position: relative;
+      height: 100%
+      background: #0066cc
+      color: white
       img
+        width: 2em
+        height: 2em
         display: inline-block;
-        width: 9em
-        height: 9em
-      .lab-title
+      .UNET
         position: absolute;
         display: inline-block;
-        color #585858
+        top: 0.5em
+        padding: 0 1em
         h1
-          color #333
-          margin-bottom 0%
-          font-size 2.3em
-        h2
-          margin-top 0%
-
-
-    .h-right
-      top: 1em
-      display: inline-block;
-      padding: 0 auto
-      width: 23%
-
-      .subscription-form
-        float: right;
-        width: 15em
-        form
-          padding: 0.5em
-          background: #ededed
-          color #333
-          margin: 0
-          input
-            margin: 0
-            background: #ededed
-            color #333
-            border: 0
-            outline: 0
-          button
-            float: right;
-            padding-right: 0.5em
-            margin: 0
-            background: #ededed
-            color #333
-            outline: 0
-            border: 0
-
-      .social-subscription
-        float: right;
-        padding-top: 0.5em
-        padding-left: 1.5em
+          color: white
+          font-size 1.2em
+  .size-container-lower-head
+    width: 100%
+    .lower-head
+      margin: 0 auto
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between
+      aling-items:center;
+      margin-top: 0.5em
+      .h-left
+        padding: 1em
+        display: inline-block;
+        width: 75%
         img
-          padding: 0 0.3em
-          width: 2em
-          height: 2em
-      .log-in
-        margin-top: 4em
-        padding-left: 13%
-        width: auto
-        float: right;
-        color #333
-        span
-          font-size: 1.5em
-        a
-          padding: 0.2em
-          display: inline;
-          font-size: 2em
-          text-decoration: none;
-          font-weight: bold
-          &:visited
-            color: #333
+          display: inline-block;
+          width: 9em
+          height: 9em
+        .lab-title
+          position: absolute;
+          display: inline-block;
+          color #585858
+          h1
+            color #333
+            margin-bottom 0%
+            font-size 2.3em
+          h2
+            margin-top 0%
 
-nav
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 2em
-  font-size: 1.5em
-  color: white
+
+      .h-right
+        top: 1em
+        display: inline-block;
+        padding: 0 auto
+        width: 23%
+
+        .subscription-form
+          float: right;
+          width: 15em
+          form
+            padding: 0.5em
+            background: #ededed
+            color #333
+            margin: 0
+            input
+              margin: 0
+              background: #ededed
+              color #333
+              border: 0
+              outline: 0
+            button
+              float: right;
+              padding-right: 0.5em
+              margin: 0
+              background: #ededed
+              color #333
+              outline: 0
+              border: 0
+
+        .social-subscription
+          float: right;
+          padding-top: 0.5em
+          padding-left: 1.5em
+          img
+            padding: 0 0.3em
+            width: 2em
+            height: 2em
+        .log-in
+          margin-top: 4em
+          padding-left: 13%
+          width: auto
+          float: right;
+          color #333
+          span
+            font-size: 1.5em
+          a
+            padding: 0.2em
+            display: inline;
+            font-size: 2em
+            text-decoration: none;
+            font-weight: bold
+            &:visited
+              color: #333
+
+.size-container-nav
+  width: 100%
   background: #3399ff
-  padding-left: 1.3em
-  ul
-    padding: 0em
+  nav
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    margin: 0
-    list-style-type: none;
-    li
-      display: inline;
-      padding: 0 1.2em
-      &:nth-child(1)
-        padding-left: 0.5em
-      a
-        text-decoration:none
-        color: #fff
-
-  .search-bar
-    padding: 0.1em
-    display: inline-block;
-    float: right;
-    form
-      padding: 0.25em
-      background: #ededed
+    height: 2em
+    font-size: 1.5em
+    color: white
+    background: #3399ff
+    padding-left: 1.3em
+    ul
+      padding: 0em
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
       margin: 0
-      input
-        width: 7.5em
+      list-style-type: none;
+      li
+        text-decoration: none
+        color: white
+        &:visited
+          color: white
+          text-decoration: none;
+        display: inline;
+        padding: 0 1.2em
+        &:nth-child(1)
+          padding-left: 0.5em
+        a
+          text-decoration:none
+          color: #fff
+
+    .search-bar
+      padding: 0.1em
+      display: inline-block;
+      float: right;
+      form
+        padding: 0.25em
         background: #ededed
         margin: 0
-        border: 0
-        outline: 0
-      button
-        color: #333
-        float: right;
-        padding-right: 0.5em
-        margin: 0
-        background: #ededed
-        outline: 0
-        border: 0
-        color #333
-    display: inline-block;
+        input
+          width: 7.5em
+          background: #ededed
+          margin: 0
+          border: 0
+          outline: 0
+        button
+          color: #333
+          float: right;
+          padding-right: 0.5em
+          margin: 0
+          background: #ededed
+          outline: 0
+          border: 0
+          color #333
+      display: inline-block;
 .slider
     position: relative;
     width: 100%
@@ -171,7 +183,7 @@ nav
     background-size: 100% 100%
     .join-us
       top: 40%
-      left: 75%
+      left: 66%
       width: 15em
       padding: 1.5em
       position: absolute;
@@ -255,57 +267,55 @@ section
   width: 20%
   float: left;
 
-
-
-
-
-footer
+.size-container-footer
+  width: 100%
   margin-top: 3em
   background: url("../images/d4tleft.png") center no-repeat
   width: 100%
   height: 40em
   background-size: 100% 100%
-  .upper-footer
-    padding: 2em
-    border-bottom: 1px solid rgba(255,255,255,0.2)
-    h1,h2
-      color: white
-  .lower-footer
-    .contact,.space-game,.interest-links
-      display: inline-block;
-    .contact
+  footer
+    .upper-footer
       padding: 2em
-      width: 30%
-      h2
+      border-bottom: 1px solid rgba(255,255,255,0.2)
+      h1,h2
         color: white
-      .social-subscription
-        a
-          img
-            padding: 0 0.5em
-            width: 2em
-            height: 2em
-    .space-game
-      width: 30%
-      .start-game
-        margin: 0 auto
-        width: 6em
-        height: 6em
-        background: rgba(0,0,0,0.8)
-        text-align: center;
-        border-radius: 50%
-
-    .interest-links
-      float: right;
-      width: 20%
-      color: white
-      padding-left: 5em
-      a,h2
+    .lower-footer
+      .contact,.space-game,.interest-links
         display: inline-block;
-      a
-        vertical-align: middle;
-        padding: 0.2em
-        border-radius: 0.2em
-        text-decoration: none;
-        color: white
-        &:visited
+      .contact
+        padding: 2em
+        width: 30%
+        h2
           color: white
+        .social-subscription
+          a
+            img
+              padding: 0 0.5em
+              width: 2em
+              height: 2em
+      .space-game
+        width: 30%
+        .start-game
+          margin: 0 auto
+          width: 6em
+          height: 6em
+          background: rgba(0,0,0,0.8)
+          text-align: center;
+          border-radius: 50%
+
+      .interest-links
+        float: right;
+        width: 20%
+        color: white
+        padding-left: 5em
+        a,h2
+          display: inline-block;
+        a
+          vertical-align: middle;
+          padding: 0.2em
+          border-radius: 0.2em
+          text-decoration: none;
+          color: white
+          &:visited
+            color: white

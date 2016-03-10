@@ -1,1 +1,18 @@
-.body-lineas-investigacion h1{color:#39f}.body-lineas-investigacion .button{padding:1em}.body-lineas-investigacion .more{margin-left:63em;padding:.4em .6em;text-decoration:none;background-color:#f33;color:#fff;font-size:1.2em;border-radius:.2em;}.body-lineas-investigacion .more:hover{background-color:#f44}
+.body-lineas-investigacion h1 {
+  color: #39f;
+}
+.body-lineas-investigacion .button {
+  padding: 1em;
+}
+.body-lineas-investigacion .more {
+  float: right;
+  padding: 0.4em 0.6em;
+  text-decoration: none;
+  background-color: #f33;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+}
+.body-lineas-investigacion .more:hover {
+  background-color: #f44;
+}
