@@ -1,7 +1,6 @@
 /*Realizado por DreamTeam - JD*/
 
 section{
-    width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
