@@ -303,6 +303,7 @@ section .investigation-lines .investigation-item img {
   display: inline-block;
   border: solid 1px #ccc;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  	perspective: 1000;
 }
 .members .member-item img {
   padding: 2em;
@@ -310,6 +311,32 @@ section .investigation-lines .investigation-item img {
   height: 15em;
   border-radius: 50%;
 }
+
+.members .member-item .flipper:hover {
+  transform: rotateY(180deg);
+}
+
+.members .member-item .flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.members .member-item .front{
+  backface-visibility: hidden;
+  z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+ .members .member-item .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 5em;
+	left: 0;
+  transform: rotateY(180deg);
+}
+
 .members .member-item h2 {
   padding: 0.5em;
   background: #f33;
