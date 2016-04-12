@@ -13,7 +13,7 @@
 }
 .blog-container .blog-information .blog-social img {
   width: 100%;
-  height: 25em;
+  height: 100%;
 }
 .blog-container .blog-information .blog-social .social-subscription {
   text-align: center;
@@ -21,8 +21,8 @@
 }
 .blog-container .blog-information .blog-social .social-subscription a img {
   padding: 0 0.3em;
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 .blog-container .blog-information .academic-info {
   padding-bottom: 0.2em;
@@ -40,6 +40,7 @@
 }
 .blog-container .blog-information .academic-info ul li {
   padding: 0.5em 0;
+  font-size: 1.2em;
 }
 .blog-container .blog-information .academic-info ul li:before {
   content: " - ";
@@ -61,6 +62,7 @@
 }
 .blog-container .blog-information .entries ul li {
   padding: 0.5em 0;
+  font-size: 1.2em;
 }
 .blog-container .blog-information .entries ul li:before {
   content: " - ";

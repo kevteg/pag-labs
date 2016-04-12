@@ -134,16 +134,22 @@ header .size-container-lower-head .lower-head .h-right .log-in {
 }
 header .size-container-lower-head .lower-head .h-right .log-in span {
   font-size: 1.5em;
+  color: black;
 }
+
 header .size-container-lower-head .lower-head .h-right .log-in a {
+  text-decoration: none;
+}
+
+header .size-container-lower-head .lower-head .h-right .log-in i {
   padding: 0.2em;
   display: inline;
   font-size: 2em;
-  text-decoration: none;
   font-weight: bold;
+  color:#333;
 }
 header .size-container-lower-head .lower-head .h-right .log-in a:visited {
-  color: #333;
+  color: #222;
 }
 .size-container-nav {
   width: 100%;
@@ -191,20 +197,28 @@ header .size-container-lower-head .lower-head .h-right .log-in a:visited {
   display: inline-block;
 }
 .size-container-nav nav .search-bar form {
-  padding: 0.25em;
+
   background: #ededed;
   margin: 0;
 }
 .size-container-nav nav .search-bar form input {
+  color: #333;
+  padding: 0.25em;
   width: 7.5em;
   background: #ededed;
   margin: 0;
   border: 0;
   outline: 0;
 }
+
+.size-container-nav nav .search-bar form input:focus {
+  background: #dcdcdc;
+}
+
 .size-container-nav nav .search-bar form button {
   color: #333;
   float: right;
+  padding-top: 0.25em;
   padding-right: 0.5em;
   margin: 0;
   background: #ededed;
@@ -289,6 +303,7 @@ section .investigation-lines .investigation-item img {
   display: inline-block;
   border: solid 1px #ccc;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  	perspective: 1000;
 }
 .members .member-item img {
   padding: 2em;
@@ -296,6 +311,32 @@ section .investigation-lines .investigation-item img {
   height: 15em;
   border-radius: 50%;
 }
+
+.members .member-item .flipper:hover {
+  transform: rotateY(180deg);
+}
+
+.members .member-item .flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.members .member-item .front{
+  backface-visibility: hidden;
+  z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+ .members .member-item .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 5em;
+	left: 0;
+  transform: rotateY(180deg);
+}
+
 .members .member-item h2 {
   padding: 0.5em;
   background: #f33;
@@ -341,6 +382,11 @@ section .investigation-lines .investigation-item img {
   padding: 2em;
   width: 30%;
 }
+
+.size-container-footer footer .lower-footer .contact a{
+  text-decoration: none;
+}
+
 .size-container-footer footer .lower-footer .contact h2 {
   color: #fff;
 }
