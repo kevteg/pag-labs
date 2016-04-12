@@ -135,13 +135,19 @@ header .size-container-lower-head .lower-head .h-right .log-in {
 }
 header .size-container-lower-head .lower-head .h-right .log-in span {
   font-size: 1.5em;
+  color: black;
 }
+
 header .size-container-lower-head .lower-head .h-right .log-in a {
+  text-decoration: none;
+}
+ 
+header .size-container-lower-head .lower-head .h-right .log-in i {
   padding: 0.2em;
   display: inline;
   font-size: 2em;
-  text-decoration: none;
   font-weight: bold;
+  color: #333;
 }
 header .size-container-lower-head .lower-head .h-right .log-in a:visited {
   color: #333;
@@ -192,20 +198,28 @@ header .size-container-lower-head .lower-head .h-right .log-in a:visited {
   display: inline-block;
 }
 .size-container-nav nav .search-bar form {
-  padding: 0.25em;
+  
   background: #ededed;
   margin: 0;
 }
 .size-container-nav nav .search-bar form input {
+  padding: 0.25em;
+  color: #333;
   width: 7.5em;
   background: #ededed;
   margin: 0;
   border: 0;
   outline: 0;
 }
+
+.size-container-nav nav .search-bar form input:focus {
+  background: #dcdcdc;
+}
+
 .size-container-nav nav .search-bar form button {
   color: #333;
   float: right;
+  padding-top: 0.25em;
   padding-right: 0.5em;
   margin: 0;
   background: #ededed;
