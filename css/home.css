@@ -140,7 +140,7 @@ header .size-container-lower-head .lower-head .h-right .log-in span {
 header .size-container-lower-head .lower-head .h-right .log-in a {
   text-decoration: none;
 }
- 
+
 header .size-container-lower-head .lower-head .h-right .log-in i {
   padding: 0.2em;
   display: inline;
@@ -197,7 +197,7 @@ header .size-container-lower-head .lower-head .h-right .log-in a:visited {
   display: inline-block;
 }
 .size-container-nav nav .search-bar form {
-  
+
   background: #ededed;
   margin: 0;
 }
@@ -355,6 +355,11 @@ section .investigation-lines .investigation-item img {
   padding: 2em;
   width: 30%;
 }
+
+.size-container-footer footer .lower-footer .contact a{
+  text-decoration: none;
+}
+
 .size-container-footer footer .lower-footer .contact h2 {
   color: #fff;
 }
