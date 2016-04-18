@@ -1,0 +1,141 @@
+.report section{
+  margin-top: 1.5em;
+}
+
+.report section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.report h1{
+  font-size: 1.5em;
+  background-color: #06c;
+  padding: 0.1em 1em;
+  color: #333;
+}
+
+.report label{
+  font-size: 1.1em;
+  font-weight: 100;
+  padding: 0.7em;
+  margin: 0.5em 0em;
+  background-color: #ededed;
+  width: 90%;
+  color: #333;
+}
+
+.l-left label:first-child,.l-right label:first-child{
+  background-color: #39f;
+  color: #fff;
+}
+
+.left-contain,.contain-graph{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.contain-graph{
+  align-items: center;
+  justify-content: center;
+}
+
+.l-left,.l-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.left h1{
+  width: 18em;
+}
+
+.right img{
+  width: 12em;
+  height: 12em;
+}
+
+.report ul{
+  list-style: none;
+  padding: 0;
+}
+
+ .report input[type="radio"]{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.report ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1em;
+}
+
+.graph ul li label{
+  background-color: #fff;
+  padding: 0;
+  margin-left: 0.5em;
+}
+
+.more-read ul li{
+  background-color: #ededed;
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+.more-read ul li label{
+  margin: 0;
+  padding: 0.2em 0.5em;
+}
+
+.left,.graph,.more-read{
+  border: solid 1px #ededed;
+}
+
+.download{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.download p{
+  color: #333;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.mode-down{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.download a{
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.download .button{
+  background-color: #f33;
+  border-radius: 0.3em;
+  padding: 0.5em 3em;
+}
+
+.download .button p{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}

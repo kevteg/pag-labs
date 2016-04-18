@@ -1,270 +1,353 @@
 .body
-  font-size: 18px;
-h1,h2,h3,h4,h5,h6
-  font-family: 'Roboto', sans-serif;
+  font-size: 18px
 
-span, ul, li, a, p
-  font-family: 'Noto Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-family: 'Roboto', sans-serif
+
+span,
+ul,
+li,
+a,
+p
+  font-family: 'Noto Sans', sans-serif
 
 ::-webkit-input-placeholder
-  color: black
+  color: #000
 
 .page-sizer
   width: 980px
   margin: 0 auto
 
-header
-  .size-container-upper-head
-    width: 100%
-    background: #0066cc
-    .upper-head
-      padding 0.5em
-      position: relative;
-      height: 100%
-      background: #0066cc
-      color: white
-      img
-        width: 2em
-        height: 2em
-        display: inline-block;
-      .UNET
-        position: absolute;
-        display: inline-block;
-        top: 0.5em
-        padding: 0 1em
-        h1
-          color: white
-          font-size 1.2em
-  .size-container-lower-head
-    width: 100%
-    .lower-head
-      margin: 0 auto
-      display:flex;
-      flex-direction:row;
-      justify-content:space-between
-      aling-items:center;
-      margin-top: 0.5em
-      .h-left
-        padding: 1em
-        display: inline-block;
-        width: 75%
-        img
-          display: inline-block;
-          width: 9em
-          height: 9em
-        .lab-title
-          position: absolute;
-          display: inline-block;
-          color #585858
-          h1
-            color #333
-            margin-bottom 0%
-            font-size 2.3em
-          h2
-            margin-top 0%
+header .size-container-upper-head
+  width: 100%
+  background: #06c
 
+header .size-container-upper-head .upper-head
+  padding: 0.5em
+  position: relative
+  height: 100%
+  background: #06c
+  color: #fff
 
-      .h-right
-        top: 1em
-        display: inline-block;
-        padding: 0 auto
-        width: 23%
+header .size-container-upper-head .upper-head img
+  width: 2em
+  height: 2em
+  display: inline-block
 
-        .subscription-form
-          float: right;
-          width: 15em
-          form
-            padding: 0.5em
-            background: #ededed
-            color #333
-            margin: 0
-            input
-              margin: 0
-              background: #ededed
-              color #333
-              border: 0
-              outline: 0
-            button
-              float: right;
-              padding-right: 0.5em
-              margin: 0
-              background: #ededed
-              color #333
-              outline: 0
-              border: 0
+header .size-container-upper-head .upper-head .UNET
+  position: absolute
+  display: inline-block
+  top: 0.5em
+  padding: 0 1em
 
-        .social-subscription
-          float: right;
-          padding-top: 0.5em
-          padding-left: 1.5em
-          img
-            padding: 0 0.3em
-            width: 2em
-            height: 2em
-        .log-in
-          margin-top: 4em
-          padding-left: 13%
-          width: auto
-          float: right;
-          color #333
-          span
-            font-size: 1.5em
-          a
-            padding: 0.2em
-            display: inline;
-            text-decoration: none;
-            font-weight: bold
-            &:visited
-              color: #333
+header .size-container-upper-head .upper-head .UNET h1
+  color: #fff
+  font-size: 1.2em
+
+header .size-container-lower-head
+  width: 100%
+
+header .size-container-lower-head .lower-head
+  margin: 0 auto
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  aling-items: center
+  margin-top: 0.5em
+
+header .size-container-lower-head .lower-head .h-left
+  padding: 1em
+  display: inline-block
+  width: 75%
+
+header .size-container-lower-head .lower-head .h-left img
+  display: inline-block
+  width: 9em
+  height: 9em
+
+header .size-container-lower-head .lower-head .h-left .lab-title
+  position: absolute
+  display: inline-block
+  color: #585858
+
+header .size-container-lower-head .lower-head .h-left .lab-title h1
+  color: #333
+  margin-bottom: 0%
+  font-size: 2.3em
+
+header .size-container-lower-head .lower-head .h-left .lab-title h2
+  margin-top: 0%
+
+header .size-container-lower-head .lower-head .h-right
+  top: 1em
+  display: inline-block
+  padding: 0 auto
+  width: 23%
+
+header .size-container-lower-head .lower-head .h-right .subscription-form
+  float: right
+  width: 15em
+
+header .size-container-lower-head .lower-head .h-right .subscription-form form
+  padding: 0.5em
+  background: #ededed
+  color: #333
+  margin: 0
+
+header .size-container-lower-head .lower-head .h-right .subscription-form form input
+  margin: 0
+  background: #ededed
+  color: #333
+  border: 0
+  outline: 0
+
+header .size-container-lower-head .lower-head .h-right .subscription-form form button
+  float: right
+  padding-right: 0.5em
+  margin: 0
+  background: #ededed
+  color: #333
+  outline: 0
+  border: 0
+
+header .size-container-lower-head .lower-head .h-right .social-subscription
+  float: right
+  padding-top: 0.5em
+  padding-left: 1.5em
+
+header .size-container-lower-head .lower-head .h-right .social-subscription img
+  padding: 0 0.3em
+  width: 2em
+  height: 2em
+
+header .size-container-lower-head .lower-head .h-right .log-in
+  margin-top: 4em
+  padding-left: 13%
+  width: auto
+  float: right
+  color: #333
+
+header .size-container-lower-head .lower-head .h-right .log-in span
+  font-size: 1.5em
+  color: black
+
+header .size-container-lower-head .lower-head .h-right .log-in a
+  text-decoration: none
+
+header .size-container-lower-head .lower-head .h-right .log-in i
+  padding: 0.2em
+  display: inline
+  font-size: 2em
+  font-weight: bold
+  color: #333
+
+header .size-container-lower-head .lower-head .h-right .log-in a:visited
+  color: #222
 
 .size-container-nav
   width: 100%
-  background: #3399ff
-  nav
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 2em
-    font-size: 1.5em
-    color: white
-    background: #3399ff
-    padding-left: 1.3em
-    ul
-      padding: 0em
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      margin: 0
-      list-style-type: none;
-      li
-        text-decoration: none
-        color: white
-        &:visited
-          color: white
-          text-decoration: none;
-        display: inline;
-        padding: 0 1.2em
-        &:nth-child(1)
-          padding-left: 0.5em
-        a
-          text-decoration:none
-          color: #fff
+  background: #39f
 
-    .search-bar
-      padding: 0.1em
-      display: inline-block;
-      float: right;
-      form
-        padding: 0.25em
-        background: #ededed
-        margin: 0
-        input
-          width: 7.5em
-          background: #ededed
-          margin: 0
-          border: 0
-          outline: 0
-        button
-          color: #333
-          float: right;
-          padding-right: 0.5em
-          margin: 0
-          background: #ededed
-          outline: 0
-          border: 0
-          color #333
-      display: inline-block;
+.size-container-nav nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 2em
+  font-size: 1.5em
+  color: #fff
+  background: #39f
+
+.size-container-nav nav ul
+  padding: 0em
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  margin: 0
+  list-style-type: none
+
+.size-container-nav nav ul li
+  text-decoration: none
+  color: #fff
+  display: inline
+  padding: 0 1.2em
+
+.size-container-nav nav ul li:visited
+  color: #fff
+  text-decoration: none
+
+.size-container-nav nav ul li:nth-child(1)
+  padding-left: 0.5em
+
+.size-container-nav nav ul li a
+  text-decoration: none
+  color: #fff
+
+.size-container-nav nav .search-bar
+  padding: 0.1em
+  display: inline-block
+  float: right
+  display: inline-block
+
+.size-container-nav nav .search-bar form
+  background: #ededed
+  margin: 0
+
+.size-container-nav nav .search-bar form input
+  color: #333
+  padding: 0.25em
+  width: 7.5em
+  background: #ededed
+  margin: 0
+  border: 0
+  outline: 0
+
+.size-container-nav nav .search-bar form input:focus
+  background: #dcdcdc
+
+.size-container-nav nav .search-bar form button
+  color: #333
+  float: right
+  padding-top: 0.25em
+  padding-right: 0.5em
+  margin: 0
+  background: #ededed
+  outline: 0
+  border: 0
+  color: #333
+
 .slider
-    position: relative;
-    width: 100%
-    height: 25em
-    background: url("../images/ac9c.jpg") center no-repeat
-    background-size: 100% 100%
-    .join-us
-      top: 40%
-      left: 66%
-      width: 15em
-      padding: 1.5em
-      position: absolute;
-      background: rgba(0, 0, 0, 0.8);
-      .link-more
-        padding-left: 10em
-        margin: 0
-        width: 6em
-        a
-          vertical-align: middle;
-          padding: 0.2em
-          background: #ff3333
-          border-radius: 0.2em
-          text-decoration: none;
-          color: white
-          &:visited
-            color: white
-      h1
-        color: white
-      span
-        color: white
+  position: relative
+  width: 100%
+  height: 25em
+  background: url("../images/ac9c.jpg") center no-repeat
+  background-size: 100% 100%
 
-section
-  .slogan
-    padding: 1em
-    h1
-      color: #3399ff
+.slider .join-us
+  top: 40%
+  left: 66%
+  width: 15em
+  padding: 1.5em
+  position: absolute
+  background: rgba(0,0,0,0.8)
 
-  .investigation-lines
-    text-align: center;
-    padding: 1em
-    width: 100%;
-    background: #e5e5e5
-    .investigation-item
-      color #333
-      text-align: center;
-      width: 20%
-      padding: 0 3.5em
-      display: inline-block;
-      img,span
-        display: block;
-      img
-        margin: 0 auto
-        border-radius: 50%
-        width 80%
-        height 80%
-      span
-        //aqui falta xD!
+.slider .join-us .link-more
+  padding-left: 10em
+  margin: 0
+  width: 6em
+
+.slider .join-us .link-more a
+  vertical-align: middle
+  padding: 0.2em
+  background: #f33
+  border-radius: 0.2em
+  text-decoration: none
+  color: #fff
+
+.slider .join-us .link-more a:visited
+  color: #fff
+
+.slider .join-us h1
+  color: #fff
+
+.slider .join-us span
+  color: #fff
+
+section .slogan
+  padding: 1em
+
+section .slogan h1
+  color: #39f
+
+section .investigation-lines
+  text-align: center
+  padding: 1em
+  width: 100%
+  background: #e5e5e5
+
+section .investigation-lines .investigation-item
+  color: #333
+  text-align: center
+  width: 20%
+  padding: 0 3.5em
+  display: inline-block
+
+section .investigation-lines .investigation-item img,
+section .investigation-lines .investigation-item span
+  display: block
+
+section .investigation-lines .investigation-item img
+  margin: 0 auto
+  border-radius: 50%
+  width: 80%
+  height: 80%
 
 .members
-  text-align: center;
+  text-align: center
   padding-top: 1em
-  .member-item
-    width: 30%
-    margin: 0 0.8em
-    text-align: center;
-    display: inline-block;
-    border: solid 1px #ccc
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.2)
-    img
-      padding: 2em
-      width: 15em
-      height: 15em
-      border-radius: 50%
-    h2
-      padding: 0.5em
-      background: #ff3333
-      color: white
-    span
-    .member-social
-      padding: 1em
-      color #333
-      img
-        padding: 0 0.3em
-        width: 2em
-        height: 2em
 
+.members .member-item
+  width: 30%
+  margin: 0 0.8em
+  text-align: center
+  display: inline-block
+  border: solid 1px #ccc
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2)
+  perspective: 1000
 
-//----------------------- BLOG -------------------------------------------
+.members .member-item img
+  padding: 2em
+  width: 15em
+  height: 15em
+  border-radius: 50%
+
+.members .member-item a
+  text-decoration: none
+
+.members .member-item .flipper:hover
+  transform: rotateY(180deg)
+
+.members .member-item .flipper
+  transition: 0.6s
+  transform-style: preserve-3d
+  position: relative
+
+.members .member-item .front
+  backface-visibility: hidden
+  z-index: 2
+  /* for firefox 31 */
+  transform: rotateY(0deg)
+
+.members .member-item .back
+  backface-visibility: hidden
+  position: absolute
+  top: 5em
+  left: 0
+  transform: rotateY(180deg)
+
+.members .member-item h2
+  padding: 0.5em
+  background: #f33
+  color: #fff
+
+.members .member-item span,
+.members .member-item .member-social
+  padding: 1em
+  color: #333
+
+.members .member-item span img,
+.members .member-item .member-social img
+  padding: 0 0.3em
+  width: 2em
+  height: 2em
+
 .blog-information
   width: 20%
-  float: left;
+  float: left
 
 .size-container-footer
   width: 100%
@@ -273,48 +356,64 @@ section
   width: 100%
   height: 40em
   background-size: 100% 100%
-  footer
-    .upper-footer
-      padding: 2em
-      border-bottom: 1px solid rgba(255,255,255,0.2)
-      h1,h2
-        color: white
-    .lower-footer
-      .contact,.space-game,.interest-links
-        display: inline-block;
-      .contact
-        padding: 2em
-        width: 30%
-        h2
-          color: white
-        .social-subscription
-          a
-            img
-              padding: 0 0.5em
-              width: 2em
-              height: 2em
-      .space-game
-        width: 30%
-        .start-game
-          margin: 0 auto
-          width: 6em
-          height: 6em
-          background: rgba(0,0,0,0.8)
-          text-align: center;
-          border-radius: 50%
 
-      .interest-links
-        float: right;
-        width: 20%
-        color: white
-        padding-left: 5em
-        a,h2
-          display: inline-block;
-        a
-          vertical-align: middle;
-          padding: 0.2em
-          border-radius: 0.2em
-          text-decoration: none;
-          color: white
-          &:visited
-            color: white
+.size-container-footer footer .upper-footer
+  padding: 2em
+  border-bottom: 1px solid rgba(255,255,255,0.2)
+
+.size-container-footer footer .upper-footer h1,
+.size-container-footer footer .upper-footer h2
+  color: #fff
+
+.size-container-footer footer .lower-footer .contact,
+.size-container-footer footer .lower-footer .space-game,
+.size-container-footer footer .lower-footer .interest-links
+  display: inline-block
+
+.size-container-footer footer .lower-footer .contact
+  padding: 2em
+  width: 30%
+
+.size-container-footer footer .lower-footer .contact a
+  text-decoration: none
+
+.size-container-footer footer .lower-footer .contact h2
+  color: #fff
+
+.size-container-footer footer .lower-footer .contact .social-subscription a img
+  padding: 0 0.5em
+  width: 2em
+  height: 2em
+
+.size-container-footer footer .lower-footer .space-game
+  width: 30%
+
+.size-container-footer footer .lower-footer .space-game .start-game
+  margin: 0 auto
+  width: 6em
+  height: 6em
+  background: rgba(0,0,0,0.8)
+  text-align: center
+  border-radius: 50%
+
+.size-container-footer footer .lower-footer .interest-links
+  float: right
+  width: 20%
+  color: #fff
+  padding-left: 5em
+
+.size-container-footer footer .lower-footer .interest-links a,
+.size-container-footer footer .lower-footer .interest-links h2
+  display: inline-block
+
+.size-container-footer footer .lower-footer .interest-links a
+  vertical-align: middle
+  padding: 0.2em
+  border-radius: 0.2em
+  text-decoration: none
+  color: #fff
+
+.size-container-footer footer .lower-footer .interest-links a:visited
+  color: #fff
+
+
