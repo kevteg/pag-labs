@@ -163,7 +163,6 @@ header .size-container-lower-head .lower-head .h-right .log-in a:visited {
   font-size: 1.5em;
   color: #fff;
   background: #39f;
-  padding-left: 1.3em;
 }
 .size-container-nav nav ul {
   padding: 0em;
@@ -310,6 +309,9 @@ section .investigation-lines .investigation-item img {
   width: 15em;
   height: 15em;
   border-radius: 50%;
+}
+.members .member-item a{
+  text-decoration: none;
 }
 
 .members .member-item .flipper:hover {
