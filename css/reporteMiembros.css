@@ -25,9 +25,9 @@
 
 .report h1{
   font-size: 1.5em;
-  background-color: #06c;
+  background-color: #fff;
   padding: 0.3em 1em;
-  color: #fff;
+  color: #39f;
 }
 
 .report label{
@@ -41,6 +41,7 @@
 .more-read ol li{
   background-color: #ededed;
   margin: 1em 0;
+  margin-right: 10px;
   padding: 0.5em;
 }
 
@@ -113,20 +114,22 @@ table{
 th{
   background-color: #06c;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  font-size: 1.1em;
   padding: 0.5em;
   border-bottom: solid 1px #06c;
 }
 
 td{
   width: 18em;
-  height: 2em;
+  height: 2.5em;
   border-left: solid 1px #06c;
   font-size: 1.1em;
   font-weight: 100;
   color: #333;
   padding-left: 1em;
 }
+tr:hover {background-color: #ededed}
 
 .download{
   display: flex;
