@@ -12,7 +12,7 @@
 .report h1{
   font-size: 1.5em;
   background-color: #06c;
-  padding: 0.1em 1em;
+  padding: 0.3em 1em;
   color: #333;
 }
 
@@ -138,4 +138,11 @@
   font-size: 1.2em;
   font-weight: bold;
   margin: 0;
+}
+
+@media print {
+  #foot {display: none;}
+  #downl {display: none;}
+  #hright {display:none;}
+  .size-container-nav {display:none;}
 }
