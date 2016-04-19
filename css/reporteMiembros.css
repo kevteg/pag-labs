@@ -4,16 +4,30 @@
 
 .report section{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.upper{
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.graph,.more-read{
+  width: 49%;
+  border: solid 1px #ededed;
 }
 
 .report h1{
   font-size: 1.5em;
   background-color: #06c;
   padding: 0.3em 1em;
-  color: #333;
+  color: #fff;
 }
 
 .report label{
@@ -21,48 +35,36 @@
   font-weight: 100;
   padding: 0.7em;
   margin: 0.5em 0em;
-  width: 90%;
   color: #333;
 }
 
-.l-left label:first-child,.l-right label:first-child{
-  background-color: #39f;
-  color: #fff;
+.more-read ol li{
+  background-color: #ededed;
+  margin: 1em 0;
+  padding: 0.5em;
 }
 
-.left-contain,.contain-graph{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
+.more-read ol li label{
+  margin: 0;
+  padding: 0.2em 0.5em;
 }
 
 .contain-graph{
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.l-left,.l-right{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 50%;
-}
-
-.left h1{
-  width: 18em;
-}
-
-.right img{
-  width: 10em;
-  height: 10em;
+  width: 100%;
 }
 
 .graph ul{
   list-style: none;
   padding: 0;
+}
+
+.graph img{
+  width: 10em;
+  height: 10em;
 }
 
 .report ul li{
@@ -76,22 +78,54 @@
 .graph ul li label{
   background-color: #fff;
   padding: 0;
-  margin-left: 0 0.5em;
+  width: 12em;
+  margin: 0.5em 0.5em;
 }
 
-.more-read ul li{
-  background-color: #ededed;
-  margin: 1em 0;
+.square1,.square2,.square3{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.square1{
+  background-color: #ffb12a;
+}
+
+.square2{
+  background-color: #ff5a19;
+}
+
+.square3{
+  background-color: #00933d;
+}
+
+.lower{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  background-color: #06c;
+  color: #fff;
+  text-align: left;
   padding: 0.5em;
+  border-bottom: solid 1px #06c;
 }
 
-.more-read ul li label{
-  margin: 0;
-  padding: 0.2em 0.5em;
-}
-
-.left,.graph,.more-read{
-  border: solid 1px #ededed;
+td{
+  width: 18em;
+  height: 2em;
+  border-left: solid 1px #06c;
+  font-size: 1.1em;
+  font-weight: 100;
+  color: #333;
+  padding-left: 1em;
 }
 
 .download{
@@ -134,28 +168,8 @@
   margin: 0;
 }
 
-.square1,.square2,.square3{
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.square1{
-  background-color: #ffb12a;
-}
-
-.square2{
-  background-color: #ff5a19;
-}
-
-.square3{
-  background-color: #00933d;
-}
-
-.tituloreport{
-  display: none;
-}
-
 @media print {
+  #h1t{color: #333;}
   #tituloreport{display: block; }
   #foot {display: none;}
   #downl {display: none;}
