@@ -172,6 +172,11 @@ tr:hover {background-color: #ededed}
 }
 
 @media print {
+  #logolab{
+    width: 5em;
+    height: 5em;
+    margin-top: 2em;
+  }
   #h1t{color: #333;}
   #tituloreport{display: block; }
   #foot {display: none;}
