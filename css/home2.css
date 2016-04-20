@@ -523,26 +523,6 @@ section .investigation-lines .investigation-item img {
       width: 25%;
       height: 25%;
     }
-    .members {
-      text-align: center;
-      padding-top: 1em;
-    }
-    .members .member-item {
-      width: 80%;
-      margin: 0 auto;
-      margin-top: 0.5em;
-      text-align: center;
-      display: block;
-      border: solid 1px #ccc;
-      box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-      	perspective: 1000;
-    }
-    .members .member-item img {
-      padding: 2em;
-      width: 45%;
-      height: 45%;
-      border-radius: 50%;
-    }
     .size-container-footer{
       display:none;
     }

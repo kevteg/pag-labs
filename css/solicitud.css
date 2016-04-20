@@ -77,3 +77,9 @@ text-align: center;
 .form-in .send:hover{
 	box-shadow:  4px 4px 9px rgba(0,0,0,0.2);
 }
+
+@media screen and (max-width: 980px) {
+  .form-in{
+    width: 90%;
+  }
+}

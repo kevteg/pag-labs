@@ -40,3 +40,30 @@
 .proyecto-body .Main-proyect .contenido div p {
   margin-top: 0%;
 }
+
+.see-more-mob{
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  .see-more-desk{
+    display:none;
+  }
+  .see-more-mob{
+    font-size: 3em;
+    padding: 0.5em;
+    display:block;
+  }
+  .contenido{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+  }
+  .imagen{
+    text-align: center;
+  }
+  .imagen img{
+    width: 80%;
+    height: 40% !important;
+  }
+}

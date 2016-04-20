@@ -1,6 +1,7 @@
 /*Realizado por DreamTeam - JD*/
 
 section{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -168,4 +169,43 @@ a{
 
 .card .back p{
  margin-left: 1em;
+}
+
+.see-more-mob{
+  display:none;
+}
+
+@media screen and (max-width: 980px) {
+  .see-more-mob{
+    display:block;
+  }
+  .see-more-desk{
+    width: 2em;
+    display:none;
+  }
+  .card{
+    display:block;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .flipper{
+    display:block;
+  }
+  .socials{
+
+    display: block;
+    text-align: center;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0.5em;
+    height: 3em;
+  }
+  .socials a{
+    padding: 2em;
+  }
 }

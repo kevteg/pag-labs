@@ -47,3 +47,26 @@
 input:hover{
   border: solid 3px #ccc;
 }
+
+@media screen and (max-width: 980px) {
+  .iniciar-sesion{
+    display:block;
+  }
+  .iniciar-sesion .autenticar{
+    width: 90%;
+    display:block;
+    margin: 0 auto;
+  }
+  .iniciar-sesion .autenticar .datos{
+    width: 90%;
+    display:block;
+    margin: 0 auto;
+  }
+
+  .iniciar-sesion .formar-parte-lab{
+    width: 90%;
+    display:block;
+    margin: 5em auto;
+  }
+
+}

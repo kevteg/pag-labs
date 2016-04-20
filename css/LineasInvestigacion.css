@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .body-lineas-investigacion h1 {
   color: #39f;
 }
@@ -17,6 +16,52 @@
 .body-lineas-investigacion .more:hover {
   background-color: #f44;
 }
-=======
 .body-lineas-investigacion h1{color:#39f}.body-lineas-investigacion .button{display:flex;justify-content:flex-end;align-items:center;padding:1em}.body-lineas-investigacion .more{padding:.4em .6em;text-decoration:none;background-color:#f33;color:#fff;font-size:1.2em;border-radius:.2em;}.body-lineas-investigacion .more:hover{background-color:#f44}
->>>>>>> 0820cf06222829893ff5d687b15475650df58291
+.see-more-mob{
+  display: none;
+}
+@media screen and (max-width: 980px) {
+  .body-lineas-investigacion{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .members {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .members .member-item {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-top: 0.5em !important;
+    text-align: center !important;
+    display: block !important;
+    border: solid 1px #ccc !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2) !important;
+      perspective: 1000 !important;
+  }
+  .members .member-item img {
+    width: 50% !important;
+    height: 50% !important;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .flipper{
+    display: inline-block;
+    width: 45%;
+  }
+  .member-lateral{
+    width: 50%;
+    display: inline-block;
+  }
+  .size-container-footer{
+    display:none;
+  }
+  .see-more-mob{
+    padding: 0.2em;
+    font-size: 2em;
+    display: block;
+  }
+  .see-more-desk{
+    display:none;
+  }
+}

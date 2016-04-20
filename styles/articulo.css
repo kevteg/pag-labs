@@ -1,5 +1,7 @@
 /*Realizado por DreamTeam - JD*/
-
+.article-sizer{
+  width: 100%;
+}
 article{
   width: 980px;
   display: flex;
@@ -58,6 +60,10 @@ a{
   margin-top: 1em;
 }
 
+.button-mob{
+  display:none;
+}
+
 .text img{
   height: 4.5em;
   width: auto;
@@ -73,8 +79,42 @@ article h6{
 }
 
 .button p{
+  width: 40%;
   background-color: #cf4045;
   color: #fff;
   border-radius: 0.2em;
   padding: 0.2em 0.5em;
+}
+
+@media screen and (max-width: 980px) {
+  article{
+    margin: 0 auto;
+  }
+  .article-sizer{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .article-corp{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .button-desk{
+    display:none;
+  }
+  .button-mob{
+    display:block;
+  }
+  .text{
+    display:none;
+  }
+  .introducing{
+    margin: 0 auto;
+  }
+  .button{
+    margin: 0 auto;
+   }
+   .introducing img{
+     width: 100%;
+     height: auto;
+   }
 }
