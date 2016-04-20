@@ -124,7 +124,7 @@ section h1{
 }
 
 .button{
-  width: 6em;
+  width: 15em;
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ section h1{
   color: #fff;
   font-size: 1.250em;
   border-radius: 0.2em;
-  padding: 0.2em 0.5em;
+  padding: 0.2em 0.4em;
 }
 
 a{
