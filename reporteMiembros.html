@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/reporteMiembros.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <script src="http://listjs.com/no-cdn/list.js"></script>
   <link rel="" href="/css/master.css" media="screen" title="no title" charset="utf-8">
   <title>Laboratorio de Prototipos</title>
 </head>
@@ -93,47 +94,62 @@
       <article class="lower">
         <div class="lower-contain">
           <h1 id="h1t">Miembros del laboratorio</h1>
-          <table id="mytable">
-            <thead>
-              <tr>
-                <th id="h1t">Nombre</th>
-                <th id="h1t">Rol</th>
-                <th id="h1t">Especialidad</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>&Aacute;ngel Gil</td>
-                <td>Profesor Investigador</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-              <tr>
-                <td>Marcey Molina</td>
-                <td>Profesor Investigador</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-              <tr>
-                <td>Diego Juliao</td>
-                <td>Tesista</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-              <tr>
-                <td>Gerardo S&aacute;nchez</td>
-                <td>Estudiante Investigador</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-              <tr>
-                <td>Kevin Hern&aacute;ndez</td>
-                <td>Estudiante Investigador</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-              <tr>
-                <td>Saúl Quintero</td>
-                <td>Profesor Investigador</td>
-                <td>Rob&oacute;tica</td>
-              </tr>
-            </tbody>
-          </table>
+          <script type="text/javascript">
+            var options = {
+              valueNames: [ 'nombre', 'rol', 'especialidad' ]
+            };
+
+            var userList = new List('users', options);
+          </script>
+          <div class="users">
+            <input class="search" placeholder="Buscar" />
+            <div class="buttons-sort">
+              <button class="sort" data-sort="nombre">Ordenar por nombre</button>
+              <button class="sort" data-sort="rol">Ordenar por rol</button>
+              <button class="sort" data-sort="especialidad">Ordenar por especialidad</button>
+            </div>
+            <table id="mytable">
+              <thead>
+                <tr>
+                  <th id="h1t">Nombre</th>
+                  <th id="h1t">Rol</th>
+                  <th id="h1t">Especialidad</th>
+                </tr>
+              </thead>
+              <tbody class="list">
+                <tr>
+                  <td class="nombre">&Aacute;ngel Gil</td>
+                  <td class="rol">Profesor Investigador</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+                <tr>
+                  <td class="nombre">Marcey Molina</td>
+                  <td class="rol">Profesor Investigador</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+                <tr>
+                  <td class="nombre">Diego Juliao</td>
+                  <td class="rol">Tesista</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+                <tr>
+                  <td class="nombre">Gerardo S&aacute;nchez</td>
+                  <td class="rol">Estudiante Investigador</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+                <tr>
+                  <td class="nombre">Kevin Hern&aacute;ndez</td>
+                  <td class="rol">Estudiante Investigador</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+                <tr>
+                  <td class="nombre">Saúl Quintero</td>
+                  <td class="rol">Profesor Investigador</td>
+                  <td class="especialidad">Rob&oacute;tica</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </article>
     </section>
@@ -149,8 +165,13 @@
         <script type="text/javascript">
         function doCsv(){
           var table=document.getElementById("mytable").innerHTML;
-          var data=table.replace(/<\/thead>/g, '')
-                        .replace(/<tbody>/g, '')
+          var data=table.replace(/<thead>/g, '')
+                        .replace(/<\/thead>/g, '')
+                        .replace(/<th id="h1t">/g, '')
+                        .replace(/<td class="nombre">/g, '')
+                        .replace(/<td class="rol">/g, '')
+                        .replace(/<td class="especialidad">/g, '')
+                        .replace(/<tbody class="list">/g, '')
                         .replace(/<\/tbody>/g, '')
                         .replace(/<tr>/g, '')
                         .replace(/<\/tr>/g, '\r\n')
@@ -161,7 +182,7 @@
                         .replace(/\t/g, '')
                         .replace(/\n/g, '');
           var mylink=document.createElement('a');
-          mylink.download="reporte.csv";
+          mylink.download="reporteMiembros.csv";
           mylink.href="data:application/csv," + escape(data);
           mylink.click();
         }
